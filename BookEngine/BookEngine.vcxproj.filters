@@ -13,5 +13,239 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{1d8a3aa7-4589-4eb7-b283-afe55838237b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\States">
+      <UniqueIdentifier>{2c51b869-aef8-4bfa-891d-4c1aa6d47e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\States">
+      <UniqueIdentifier>{51e4ff53-e10b-4028-ad0a-01d4c8e950b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images">
+      <UniqueIdentifier>{b606d399-7c19-449b-bc62-d2faf4aa91f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Engine">
+      <UniqueIdentifier>{9f499eba-6778-47fc-972e-d759133c5903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine">
+      <UniqueIdentifier>{706c2623-a8e8-47db-8728-c6b85f08431f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Drawable">
+      <UniqueIdentifier>{5439d808-d92e-46ef-84ed-963354041d67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Drawable">
+      <UniqueIdentifier>{aba0a0c6-2c46-4eea-800d-84b171717ff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GUI">
+      <UniqueIdentifier>{fbb488c9-959f-4629-ab2f-8f302bcda637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GUI">
+      <UniqueIdentifier>{b6d3fc27-b937-4987-b2c6-391883f72797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GUI\Button">
+      <UniqueIdentifier>{db0dca67-d2b1-4c12-be5f-086acc721ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GUI\Button">
+      <UniqueIdentifier>{6a9979eb-f3d9-4b7b-8c86-e75ddec61c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GUI\Text">
+      <UniqueIdentifier>{70a4f16c-004f-4f09-9cef-350bbfa4bf0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GUI\Text">
+      <UniqueIdentifier>{bc0afff3-daca-43fa-a924-24da8914bb4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\LogicLegacy">
+      <UniqueIdentifier>{40175c82-f926-4bdb-8155-63b94f4fd370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\LogicLegacy">
+      <UniqueIdentifier>{4a357bbc-f663-4eae-b51e-bd71bc037ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\LogicLegacy\Render">
+      <UniqueIdentifier>{5af2241d-a6b1-4ac3-a9e3-97a8ddf29963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\LogicLegacy\Game">
+      <UniqueIdentifier>{d771fa93-e905-4eeb-b386-b81dc68ebcae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\LogicLegacy\System">
+      <UniqueIdentifier>{580fd7b2-5090-4a66-8f72-6cfbf15b27f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\LogicLegacy\Game">
+      <UniqueIdentifier>{260296a8-d9f2-4847-b688-651818d23041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\LogicLegacy\System">
+      <UniqueIdentifier>{fdcdb9fb-2bd5-4395-b0fc-bfa19cf2b4e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\LogicLegacy\Render">
+      <UniqueIdentifier>{2f73e18d-05dc-4edf-9bc1-5df223a51e4b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="config\keys.ini">
+      <Filter>config</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Intro.cpp">
+      <Filter>Исходные файлы\States</Filter>
+    </ClCompile>
+    <ClCompile Include="State_MainMenu.cpp">
+      <Filter>Исходные файлы\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseState.cpp">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>Исходные файлы\Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawable.cpp">
+      <Filter>Исходные файлы\Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonRect.cpp">
+      <Filter>Исходные файлы\GUI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Исходные файлы\GUI\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Game.cpp">
+      <Filter>Исходные файлы\States</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderCard.cpp">
+      <Filter>Исходные файлы\LogicLegacy\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderDeck.cpp">
+      <Filter>Исходные файлы\LogicLegacy\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderGeneralPlayer.cpp">
+      <Filter>Исходные файлы\LogicLegacy\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderHand.cpp">
+      <Filter>Исходные файлы\LogicLegacy\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderObject.cpp">
+      <Filter>Исходные файлы\LogicLegacy\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Исходные файлы\LogicLegacy\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralPlayer.cpp">
+      <Filter>Исходные файлы\LogicLegacy\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Исходные файлы\LogicLegacy\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Deck.cpp">
+      <Filter>Исходные файлы\LogicLegacy\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Hand.cpp">
+      <Filter>Исходные файлы\LogicLegacy\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Paused.cpp">
+      <Filter>Исходные файлы\States</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Credits.cpp">
+      <Filter>Исходные файлы\States</Filter>
+    </ClCompile>
+    <ClCompile Include="State_FactHSE.cpp">
+      <Filter>Исходные файлы\States</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="State_Intro.h">
+      <Filter>Файлы заголовков\States</Filter>
+    </ClInclude>
+    <ClInclude Include="State_MainMenu.h">
+      <Filter>Файлы заголовков\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseState.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>Файлы заголовков\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable.h">
+      <Filter>Файлы заголовков\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonRect.h">
+      <Filter>Файлы заголовков\GUI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Файлы заголовков\GUI\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Game.h">
+      <Filter>Файлы заголовков\States</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderCard.h">
+      <Filter>Файлы заголовков\LogicLegacy\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderDeck.h">
+      <Filter>Файлы заголовков\LogicLegacy\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderGeneralPlayer.h">
+      <Filter>Файлы заголовков\LogicLegacy\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderHand.h">
+      <Filter>Файлы заголовков\LogicLegacy\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderObject.h">
+      <Filter>Файлы заголовков\LogicLegacy\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>Файлы заголовков\LogicLegacy\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck.h">
+      <Filter>Файлы заголовков\LogicLegacy\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralPlayer.h">
+      <Filter>Файлы заголовков\LogicLegacy\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Hand.h">
+      <Filter>Файлы заголовков\LogicLegacy\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Файлы заголовков\LogicLegacy\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Paused.h">
+      <Filter>Файлы заголовков\States</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Credits.h">
+      <Filter>Файлы заголовков\States</Filter>
+    </ClInclude>
+    <ClInclude Include="State_FactHSE.h">
+      <Filter>Файлы заголовков\States</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\intro.png">
+      <Filter>images</Filter>
+    </Image>
   </ItemGroup>
 </Project>
